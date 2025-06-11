@@ -1,0 +1,76 @@
+body {
+-webkit-font-smoothing: antialiased !important;
+-moz-osx-font-smoothing: grayscale !important;
+letter-spacing: normal;
+font-kerning: normal;
+-moz-font-feature-settings: "kern=1";
+-ms-font-feature-settings: "kern" 1;
+text-rendering: optimizeLegibility;
+font-variant-ligatures: common-ligatures;
+-moz-font-feature-settings: "liga", "dlig";
+-ms-font-feature-settings: "liga", "dlig";
+-webkit-font-feature-settings: "liga", "dlig";
+-o-font-feature-settings: "liga", "dlig";
+font-feature-settings: "liga", "dlig";
+font-size: 1.4rem;
+line-height: 1.8rem;
+-moz-font-feature-settings: "ss02";
+-webkit-font-feature-settings: "ss02";
+font-feature-settings: "ss02";
+color: rgb(114, 67, 255);
+background-color: #ccbead;
+font-family: Arial,sans-serif;
+vertical-align: left;
+}
+
+.title-container {
+    display: grid;
+    max-width: 30%;
+    height: 100lvh;
+    place-items: left;
+}
+
+.container-grid {
+    display: grid;
+    width: 100vw;
+    border: black 0.5px solid;
+    height: fit-content;
+    background-color: blue;
+    grid-template-columns: 1fr ;
+    grid-template-rows: max-content;
+    row-gap: 10px;
+    
+}
+
+strong {
+    font-style: oblique;
+}
+
+h4 {
+    text-align: right;
+}
+
+.heading-grid {
+    background-color: rgb(104, 36, 63);
+    text-align: center;
+}
+
+.row-1 {
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: max-content;
+    min-height: 150px;
+    overflow: hidden ;
+    width: 100vw;
+    margin-top: 10px;
+    align-content: right;
+    
+
+}
+
+.row-2 {
+
+    background-color: rgb(0, 255, 21);
+}
+
