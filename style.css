@@ -1,3 +1,5 @@
+
+
 body {
 -webkit-font-smoothing: antialiased !important;
 -moz-osx-font-smoothing: grayscale !important;
@@ -10,10 +12,10 @@ font-variant-ligatures: common-ligatures;
 -webkit-font-feature-settings: "liga", "dlig";
 -o-font-feature-settings: "liga", "dlig";
 font-feature-settings: "liga", "dlig";
-font-size: 1.4rem;
-line-height: 1.8rem;
+font-size: 1.2rem;
+line-height: 1.6rem;
 /* -moz-font-feature-settings: "ss02";
--webkit-font-feature-settings: "ss02";
+-webkit-font-feature-settings: "ss02"
 font-feature-settings: "ss02"; */
 color: #0118D8;
 background-color: #F8F5E9;
@@ -22,20 +24,20 @@ vertical-align: left;
 }
 
 .container{
-    padding:20px;
+    padding:40px;
 }
-
-
 .title-container {
     display: grid;
-    max-width: 45%;
+    max-width: 50%;
     height: 100lvh;
     place-items: left;
     padding-top: 80px;
     padding-left: 20px;
 }
 
+
 .pageheading{
+    font-size: 5.7vw;
     text-align: left;
     padding-left:20px;
     padding-top: 20px;
@@ -49,7 +51,7 @@ vertical-align: left;
     grid-template-columns: 1fr ;
     grid-template-rows: max-content;
     row-gap: 10px;
-}
+} 
 
 strong {
     font-style: oblique;
@@ -59,11 +61,12 @@ strong {
     display: flex;
     justify-content:  space-between;
     background-color:#F8F5E9;
-    /* text-align: Left; */
-    font-size: 40px;
+    text-align: Left;
+     font-size: 2.2rem;
     padding:20px;
     border-bottom: 0.5px solid;
-}
+    text-decoration: none;
+}  
 
 .row-1 {
     background-color:#F8F5E9;
@@ -72,11 +75,37 @@ strong {
     grid-template-rows: max-content;
     min-height: 100px;
     overflow: hidden ;
-    /* width: 1200px; */
+    width: 1200px; 
     margin-top: 10px;
     align-content: right;
     font-size: medium;
-    padding:15px;
-    /* border: 0.5px solid; */
+    padding:15px; 
+    
+} 
+
+.card {
+  color: #0118D8;
+  font-family:serif;
+  padding: 2rem;
+  height: 5rem;
 }
 
+.cards {
+  /* align-content:end; */
+  max-width:fit-content;
+  margin: 0 auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 4;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
+}
+ 
