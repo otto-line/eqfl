@@ -68,7 +68,7 @@ strong {
     text-decoration: none;
 }  
 
-.row-1 {
+/* .row-1 {
     background-color:#F8F5E9;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -81,7 +81,7 @@ strong {
     font-size: medium;
     padding:15px; 
     
-} 
+}  */
 
 .card {
   color: #0118D8;
@@ -108,4 +108,27 @@ strong {
 @media (min-width: 900px) {
   .cards { grid-template-columns: repeat(4, 1fr); }
 }
- 
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.projectinfo {
+  padding: 2rem;
+}
+
+.information{
+  /* padding-top: 10px; */
+ font-size: 1.2rem;
+ line-height: 1.7rem;
+}
