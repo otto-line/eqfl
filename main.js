@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (project.embedUrl) {
                     embedEl.src = project.embedUrl;
                     embedEl.style.display = "block";
+                    embedEl.onerror = null;
                     embedEl.onerror = () => {
                         embedEl.style.display = "none";
                         descEl.textContent += "\n\n⚠️ This embedded project failed to load. Try viewing it on the external site instead.";
@@ -71,5 +72,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 const match = projects.find(p => p.slug === slug);
                 if (match) openProjectModal(match);
             }
+
+            document.addEventListener("keydown", (e) => {
+                if (e.key === "Escape" && modal.classList.contains("active")) {
+                    closeProjectModal();
+                }
+            });
         });
 });
