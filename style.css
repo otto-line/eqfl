@@ -108,9 +108,6 @@ strong {
   flex-wrap: wrap;
   align-items: flex-start;
   padding: 1rem;
-  background-color: white;
-  border-radius: 8px;
-  max-width: 800px;
   margin: 2rem auto;
   gap: 1rem;
 }
