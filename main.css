@@ -56,13 +56,12 @@ a:hover {
 }
 
 .main-container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   border-bottom: var(--color-border) 2px solid;
   height: fit-content;
   background-color: var(--color-bg);
-  grid-template-columns: 1fr;
-  grid-template-rows: max-content;
-  row-gap: 10px;
 }
 
 .about-container {
