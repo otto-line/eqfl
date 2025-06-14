@@ -105,19 +105,21 @@ a:focus {
   margin: 0 auto;
   display: grid;
   gap: var(--spacing-large);
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  box-sizing: border-box;
   text-align: center;
   padding: var(--spacing-medium);
 }
 
 .card {
   padding: var(--spacing-medium);
-  height: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: flex-start;
-  font-family: var(--font-cards)
+  font-family: var(--font-cards);
+  box-sizing: border-box;
 }
 
 .card-image {
@@ -219,6 +221,12 @@ a:focus {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (min-width: 600px) {
