@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 const authorEl = document.getElementById("modal-author");
                 authorEl.textContent = project.author || "";
 
+                // Set quarter
+                const quarterEl = document.getElementById("modal-quarter");
+                quarterEl.textContent = `(${project.quarter})` || "";
+
                 // Set modal description and external links
                 descEl.textContent = project.description || "";
 
