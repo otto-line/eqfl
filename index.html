@@ -9,12 +9,20 @@
 </head>
 
 <body>
-    <div class="main-container">
-      <div class="header">
-        <div>Projects</div>
-        <div><a href="about.html">About</a></div>
-      </div>
-      <div class="cards"></div>
+  <div class="main-container">
+    <div class="header">
+      <div>Projects</div>
+      <div><a href="about.html">About</a></div>
     </div>
+    <div class="cards"></div>
+  </div>
+  <div id="project-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="modal-close">X</button>
+      <h2 id="modal-title"></h2>
+      <iframe id="modal-video" src="" frameborder="0" allowfullscreen></iframe>
+      <p id="modal-description"></p>
+    </div>
+  </div>
   <script src="main.js"></script>
 </body>
