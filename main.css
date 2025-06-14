@@ -108,8 +108,8 @@ strong {
   line-height: calc(var(--line-height-base) + 0.1rem);
 }
 
-.modal {
-  display: flex;
+.project-modal {
+  display: none;
   flex-direction: column;
   gap: var(--spacing-small);
   padding: var(--spacing-medium);
@@ -117,12 +117,8 @@ strong {
   margin: var(--spacing-medium) auto;
 }
 
-.active {
+.project-modal.active {
   display: flex;
-}
-
-.hidden {
-  display: none;
 }
 
 .modal-text-content {

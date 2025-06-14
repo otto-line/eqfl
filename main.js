@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 } else {
                     embedEl.style.display = "none";
                 }
-                modal.classList.remove("hidden");
                 modal.classList.add("active");
                 cardsContainer.style.display = "none";
                 history.pushState(null, "", `?project=${project.slug}`);
@@ -53,7 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
             function closeProjectModal() {
                 modal.classList.remove("active");
-                modal.classList.add("hidden");
                 cardsContainer.style.display = "";
                 embedEl.src = ""; // stop video
                 history.pushState(null, "", "index.html");
