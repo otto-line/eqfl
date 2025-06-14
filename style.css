@@ -103,17 +103,32 @@ strong {
 }
 
 .modal-content {
-  background: none;
-  padding: 0;
-  max-width: 100%;
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 2rem auto;
 }
 
-iframe#modal-video {
+#modal-title {
+  flex: 0 0 auto;
+  width: 30%;
+  text-align: left;
+}
+
+#modal-description {
+  flex: 1 1 70%;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+#modal-video {
+  flex: 0 0 100%;
+  margin-top: 1rem;
   width: 100%;
   height: 80vh;
   border: none;
