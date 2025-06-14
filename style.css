@@ -113,6 +113,12 @@ strong {
   gap: 1rem;
 }
 
+iframe#modal-video {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
+
 @media (min-width: 600px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
