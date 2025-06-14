@@ -16,5 +16,47 @@
         "image": "images/lauren.png",
         "link": "#",
         "alt": "Project 3"
+    },
+    {
+        "title": "Project 4",
+        "image": "",
+        "link": "#",
+        "alt": "Project 4"
+    },
+    {
+        "title": "Project 5",
+        "image": "",
+        "link": "#",
+        "alt": "Project 5"
+    },
+    {
+        "title": "Project 6",
+        "image": "",
+        "link": "#",
+        "alt": "Project 6"
+    },
+    {
+        "title": "Project 7",
+        "image": "",
+        "link": "#",
+        "alt": "Project 7"
+    },
+    {
+        "title": "Project 8",
+        "image": "",
+        "link": "#",
+        "alt": "Project 8"
+    },
+    {
+        "title": "Project 9",
+        "image": "",
+        "link": "#",
+        "alt": "Project 9"
+    },
+    {
+        "title": "Project 10",
+        "image": "",
+        "link": "#",
+        "alt": "Project 10"
     }
 ]
