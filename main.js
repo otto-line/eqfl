@@ -66,14 +66,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
                 // Activate the modal and hide the card grid
                 modal.classList.add("active");
-                cardsContainer.style.display = "none";
+                cardsContainer.classList.add("hidden");
                 history.pushState(null, "", `?project=${project.slug}`);
             }
 
             // Closes the project modal and restores the main card grid
             function closeProjectModal() {
                 modal.classList.remove("active");
-                cardsContainer.style.display = "";
+                cardsContainer.classList.remove("hidden");
                 embedEl.src = ""; // stop video
                 history.pushState(null, "", "index.html");
             }

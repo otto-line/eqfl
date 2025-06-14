@@ -1,3 +1,4 @@
+
 :root {
   --font-size-base: 1.2rem;
   --font-size-large: 2.2rem;
@@ -97,6 +98,10 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   text-align: center;
   padding: var(--spacing-medium);
+}
+
+.cards.hidden {
+  display: none;
 }
 
 .card {
