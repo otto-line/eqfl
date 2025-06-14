@@ -1,20 +1,20 @@
 [
-  {
-    "title": "JUNGLE",
-    "image": "images/jungle.png",
-    "link": "projects/jungle.html",
-    "alt": "The Jungle thumbnail"
-  },
-  {
-    "title": "Mediums, between nostalgia and memores",
-    "image": "images/Hyunje.png",
-    "link": "#",
-    "alt": "Hyunje Park project"
-  },
-  {
-    "title": "Project 3",
-    "image": "images/lauren.png",
-    "link": "#",
-    "alt": "Project 3"
-  }
+    {
+        "title": "JUNGLE",
+        "image": "images/jungle.png",
+        "link": "projects/jungle.html",
+        "alt": "The Jungle thumbnail"
+    },
+    {
+        "title": "Mediums, between nostalgia and memores",
+        "image": "images/Hyunje.png",
+        "link": "#",
+        "alt": "Hyunje Park project"
+    },
+    {
+        "title": "Project 3",
+        "image": "images/lauren.png",
+        "link": "#",
+        "alt": "Project 3"
+    }
 ]
