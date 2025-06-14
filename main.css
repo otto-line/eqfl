@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .main-container {
   display: grid;
   border: var(--color-border) 2px solid;
