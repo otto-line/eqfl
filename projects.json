@@ -4,6 +4,7 @@
         "slug": "jungle",
         "image": "images/jungle.png",
         "embedUrl": "https://kvnchpl.com/jungle/",
+        "external": true,
         "description": "JUNGLE is a digital zine we created as a digital restpoint—a place for viewers to pause, drift, and reorient themselves in the midst of an overstimulated world. The pages are fragments—poems, images, and 3D environments—each one linking through hypertext.",
         "alt": "JUNGLE thumbnail"
     },
@@ -12,6 +13,7 @@
         "slug": "mediums-nostalgia-memories",
         "image": "images/mediums-nostalgia-memories.png",
         "embedUrl": "webgl/mediums-nostalgia-memories/",
+        "external": false,
         "description": "",
         "alt": "Mediums, between nostalgia and memories thumbnail"
     },
@@ -20,6 +22,7 @@
         "slug": "project-3",
         "image": "images/project-3.png",
         "embedUrl": "webgl/project-3/",
+        "external": false,
         "description": "Description for Project 3",
         "alt": "Project 3 thumbnail"
     },
@@ -28,6 +31,7 @@
         "slug": "project-4",
         "image": "images/project-4.png",
         "embedUrl": "webgl/project-4/",
+        "external": false,
         "description": "Description for Project 4",
         "alt": "Project 4 thumbnail"
     },
@@ -36,6 +40,7 @@
         "slug": "project-5",
         "image": "images/project-5.png",
         "embedUrl": "webgl/project-5/",
+        "external": false,
         "description": "Description for Project 5",
         "alt": "Project 5 thumbnail"
     },
@@ -44,6 +49,7 @@
         "slug": "project-6",
         "image": "images/project-6.png",
         "embedUrl": "webgl/project-6/",
+        "external": false,
         "description": "Description for Project 6",
         "alt": "Project 6 thumbnail"
     },
@@ -52,6 +58,7 @@
         "slug": "project-7",
         "image": "images/project-7.png",
         "embedUrl": "webgl/project-7/",
+        "external": false,
         "description": "Description for Project 7",
         "alt": "Project 7 thumbnail"
     },
@@ -60,6 +67,7 @@
         "slug": "project-8",
         "image": "images/project-8.png",
         "embedUrl": "webgl/project-8/",
+        "external": false,
         "description": "Description for Project 8",
         "alt": "Project 8 thumbnail"
     },
@@ -68,6 +76,7 @@
         "slug": "project-9",
         "image": "images/project-9.png",
         "embedUrl": "webgl/project-9/",
+        "external": false,
         "description": "Description for Project 9",
         "alt": "Project 9 thumbnail"
     },
@@ -76,6 +85,7 @@
         "slug": "project-10",
         "image": "images/project-10.png",
         "embedUrl": "webgl/project-10/",
+        "external": false,
         "description": "Description for Project 10",
         "alt": "Project 10 thumbnail"
     }
