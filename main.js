@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // Fetch project data from JSON file and initialize UI once loaded
     fetch("projects.json")
         .then(res => res.json())
         .then(projects => {
@@ -9,13 +10,22 @@ document.addEventListener("DOMContentLoaded", () => {
             const descEl = document.getElementById("modal-description");
             const closeBtn = document.getElementById("modal-close");
 
+            /**
+             * Displays the modal for a given project.
+             * Populates title, author, description, links, and either embed or image fallback.
+             */
             function openProjectModal(project) {
+                // Set modal title and author
                 modal.classList.remove("active");
                 titleEl.textContent = project.title;
+
                 // Set author
                 const authorEl = document.getElementById("modal-author");
                 authorEl.textContent = project.author || "";
+
+                // Set modal description and external links
                 descEl.textContent = project.description || "";
+
                 // Set links
                 const linksEl = document.getElementById("modal-links");
                 linksEl.innerHTML = "";
@@ -30,12 +40,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         linksEl.appendChild(document.createElement("br"));
                     });
                 }
+                
+                // Clear and hide any existing embed
                 embedEl.src = "";
                 embedEl.style.display = "none";
 
                 const embedFallback = document.getElementById("modal-embed-fallback");
                 embedFallback.innerHTML = "";
 
+                // Display embed if available, otherwise show fallback image
                 if (project.embedUrl) {
                     embedEl.src = project.embedUrl;
                     embedEl.style.display = "block";
@@ -51,11 +64,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     img.classList.add("fallback-image");
                     embedFallback.appendChild(img);
                 }
+                // Activate the modal and hide the card grid
                 modal.classList.add("active");
                 cardsContainer.style.display = "none";
                 history.pushState(null, "", `?project=${project.slug}`);
             }
 
+            // Closes the project modal and restores the main card grid
             function closeProjectModal() {
                 modal.classList.remove("active");
                 cardsContainer.style.display = "";
@@ -63,6 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 history.pushState(null, "", "index.html");
             }
 
+            // Create a visual card for each project with image and link
             projects.forEach(project => {
                 const card = document.createElement("div");
                 card.className = "card";
@@ -79,6 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 link.addEventListener("click", (e) => {
                     e.preventDefault();
 
+                    // If project is marked as external, open in new tab instead of modal
                     if (project.external && project.embedUrl) {
                         const newWindow = window.open(project.embedUrl, "_blank", "noopener,noreferrer");
                         if (newWindow) newWindow.opener = null;
@@ -93,9 +110,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 cardsContainer.appendChild(card);
             });
 
+            // Bind modal close button to closing behavior
             closeBtn.addEventListener("click", closeProjectModal);
 
-            // Open modal if ?project=<slug> in URL
+            // If a project slug is present in the URL, open its modal directly
             const params = new URLSearchParams(window.location.search);
             const slug = params.get("project");
             if (slug) {
@@ -103,6 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (match) openProjectModal(match);
             }
 
+            // Allow closing modal with Escape key
             document.addEventListener("keydown", (e) => {
                 if (e.key === "Escape" && modal.classList.contains("active")) {
                     closeProjectModal();

@@ -185,13 +185,21 @@ a:hover {
 }
 
 #modal-links a {
-  text-decoration: underline;;
+  text-decoration: underline;
+  ;
 }
 
 #modal-embed {
   width: 100%;
   height: var(--modal-height);
   border: none;
+}
+
+#modal-embed-fallback img.fallback-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 1em;
 }
 
 @media (min-width: 600px) {
