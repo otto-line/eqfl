@@ -93,9 +93,9 @@ eqfl/
 
 ---
 
-## 👥 Maintainers
+## Maintainers
 
 Kevin Cunanan Chappelle
-[https://kvnchpl.com](https://kvnchpl.com)
+([https://kvnchpl.com](https://kvnchpl.com))
 
 ---
