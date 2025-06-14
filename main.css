@@ -123,6 +123,12 @@ a:hover {
   font-family: var(--font-cards)
 }
 
+.card-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .card a {
   padding-top: var(--spacing-small);
 }
@@ -194,6 +200,7 @@ a:hover {
 }
 
 #modal-embed {
+  margin-top: var(--spacing-small);
   width: 100%;
   height: var(--modal-height);
   border: none;

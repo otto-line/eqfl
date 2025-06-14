@@ -83,30 +83,35 @@ document.addEventListener("DOMContentLoaded", () => {
                 const card = document.createElement("div");
                 card.className = "card";
 
-                const img = document.createElement("img");
-                img.src = project.image;
-                img.alt = project.alt || project.title;
-                img.width = 120;
-                img.height = 90;
+                // Add image if one is specified
+                if (project.image) {
+                    const img = document.createElement("img");
+                    img.src = project.image;
+                    img.alt = project.alt || project.title;
+                    img.classList.add("card-image");
+                    card.appendChild(img);
+                }
 
-                const link = document.createElement("a");
-                link.href = `?project=${project.slug}`;
-                link.textContent = project.title;
-                link.addEventListener("click", (e) => {
-                    e.preventDefault();
+                // Add link to project info
+                if (project.slug && project.title) {
+                    const link = document.createElement("a");
+                    link.href = `?project=${project.slug}`;
+                    link.textContent = project.title;
+                    link.addEventListener("click", (e) => {
+                        e.preventDefault();
 
-                    // If project is marked as external, open in new tab instead of modal
-                    if (project.external && project.embedUrl) {
-                        const newWindow = window.open(project.embedUrl, "_blank", "noopener,noreferrer");
-                        if (newWindow) newWindow.opener = null;
-                        return;
-                    }
+                        // If project is marked as external, open in new tab instead of modal
+                        if (project.external && project.embedUrl) {
+                            const newWindow = window.open(project.embedUrl, "_blank", "noopener,noreferrer");
+                            if (newWindow) newWindow.opener = null;
+                            return;
+                        }
 
-                    openProjectModal(project);
-                });
+                        openProjectModal(project);
+                    });
+                    card.appendChild(link);
+                }
 
-                card.appendChild(img);
-                card.appendChild(link);
                 cardsContainer.appendChild(card);
             });
 
