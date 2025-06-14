@@ -184,6 +184,10 @@ a:hover {
   gap: var(--spacing-small);
 }
 
+#modal-links a {
+  text-decoration: underline;;
+}
+
 #modal-video {
   width: 100%;
   height: var(--modal-height);
