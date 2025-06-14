@@ -3,15 +3,17 @@
         "title": "JUNGLE",
         "slug": "jungle",
         "image": "images/jungle.png",
-        "videoId": "6u3JY1d3Zb0",
+        "embedUrl": "https://your-webgl-host.com/jungle",
         "description": "JUNGLE is a digital zine we created as a digital restpoint...",
         "alt": "JUNGLE thumbnail"
     },
     {
-        "title": "Mediums, between nostalgia and memores",
+        "title": "Mediums, between nostalgia and memories",
+        "slug": "mediums-nostalgia-memories",
         "image": "images/Hyunje.png",
-        "link": "#",
-        "alt": "Hyunje Park project"
+        "embedUrl": "https://your-webgl-host.com/jungle",
+        "description": "JUNGLE is a digital zine we created as a digital restpoint...",
+        "alt": "Mediums, between nostalgia and memories thumbnail"
     },
     {
         "title": "Project 3",

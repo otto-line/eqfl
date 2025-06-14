@@ -5,14 +5,22 @@ document.addEventListener("DOMContentLoaded", () => {
             const cardsContainer = document.querySelector(".cards");
             const modal = document.getElementById("project-modal");
             const titleEl = document.getElementById("modal-title");
-            const videoEl = document.getElementById("modal-video");
+            const embedEl = document.getElementById("modal-video");
             const descEl = document.getElementById("modal-description");
             const closeBtn = document.getElementById("modal-close");
 
             function openProjectModal(project) {
                 titleEl.textContent = project.title;
                 descEl.textContent = project.description || "";
-                videoEl.src = `https://www.youtube.com/embed/${project.videoId}`;
+                if (project.embedUrl) {
+                    embedEl.src = project.embedUrl;
+                    embedEl.style.display = "block";
+                } else if (project.link) {
+                    window.location.href = project.link;
+                    return;
+                } else {
+                    embedEl.style.display = "none";
+                }
                 modal.classList.add("active");
                 cardsContainer.style.display = "none";
                 history.pushState(null, "", `?project=${project.slug}`);
@@ -21,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
             function closeProjectModal() {
                 modal.classList.remove("active");
                 cardsContainer.style.display = "";
-                videoEl.src = ""; // stop video
+                embedEl.src = ""; // stop video
                 history.pushState(null, "", "index.html");
             }
 
