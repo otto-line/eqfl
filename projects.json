@@ -2,7 +2,7 @@
     {
         "title": "JUNGLE",
         "slug": "jungle",
-        "image": "images/jungle.png",
+        "image": "img/jungle.png",
         "alt": "JUNGLE thumbnail",
         "embedUrl": "https://kvnchpl.com/jungle/",
         "external": false,
@@ -22,7 +22,7 @@
     {
         "title": "Mediums, between nostalgia and memories",
         "slug": "mediums-nostalgia-memories",
-        "image": "images/mediums-nostalgia-memories.png",
+        "image": "img/mediums-nostalgia-memories.png",
         "alt": "Mediums, between nostalgia and memories thumbnail",
         "embedUrl": "webgl/mediums-nostalgia-memories/",
         "external": false,
@@ -38,7 +38,7 @@
     {
         "title": "Project 3",
         "slug": "project-3",
-        "image": "images/project-3.png",
+        "image": "img/project-3.png",
         "alt": "Project 3 thumbnail",
         "embedUrl": "",
         "external": false,
