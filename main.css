@@ -154,19 +154,14 @@ a:hover {
 }
 
 #modal-close {
-  font-size: 1.5rem;
   background: none;
   border: none;
   cursor: pointer;
   padding: 0;
   margin-right: var(--spacing-small);
   align-self: flex-start;
-  color: var(--color-link);
 }
 
-#modal-close img {
-  display: block;
-}
 
 .modal-title-block {
   display: flex;
