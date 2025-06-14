@@ -31,6 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     });
                 }
                 embedEl.src = "";
+                embedEl.style.display = "none";
+
+                const embedFallback = document.getElementById("modal-embed-fallback");
+                embedFallback.innerHTML = "";
+
                 if (project.embedUrl) {
                     embedEl.src = project.embedUrl;
                     embedEl.style.display = "block";
@@ -39,11 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
                         embedEl.style.display = "none";
                         descEl.textContent += "\n\n This embedded project failed to load. Try viewing it on the external site instead.";
                     };
-                } else if (project.link) {
-                    window.location.href = project.link;
-                    return;
-                } else {
-                    embedEl.style.display = "none";
+                } else if (project.image) {
+                    const img = document.createElement("img");
+                    img.src = project.image;
+                    img.alt = project.alt || project.title;
+                    img.classList.add("fallback-image");
+                    embedFallback.appendChild(img);
                 }
                 modal.classList.add("active");
                 cardsContainer.style.display = "none";
