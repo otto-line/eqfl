@@ -57,7 +57,7 @@ a:hover {
 
 .main-container {
   display: grid;
-  border: var(--color-border) 2px solid;
+  border-bottom: var(--color-border) 2px solid;
   height: fit-content;
   background-color: var(--color-bg);
   grid-template-columns: 1fr;
@@ -85,7 +85,7 @@ a:hover {
   text-align: left;
   font-size: var(--font-size-large);
   padding: var(--spacing-medium);
-  border-bottom: 0.5px solid var(--color-border);
+  border-bottom: var(--color-border) 1px solid;
   text-decoration: none;
 }
 
