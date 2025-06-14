@@ -127,11 +127,6 @@ a:hover {
   padding-top: var(--spacing-small);
 }
 
-.information {
-  font-size: var(--font-size-base);
-  line-height: calc(var(--line-height-base) + 0.1rem);
-}
-
 .project-modal {
   display: none;
   flex-direction: column;
@@ -161,7 +156,6 @@ a:hover {
   margin-right: var(--spacing-small);
   align-self: flex-start;
 }
-
 
 .modal-title-block {
   display: flex;
@@ -197,7 +191,6 @@ a:hover {
 
 #modal-links a {
   text-decoration: underline;
-  ;
 }
 
 #modal-embed {
