@@ -40,7 +40,7 @@
         "slug": "project-3",
         "image": "images/project-3.png",
         "alt": "Project 3 thumbnail",
-        "embedUrl": "webgl/project-3/",
+        "embedUrl": "",
         "external": false,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "author": "Author 3",
@@ -54,71 +54,113 @@
     {
         "title": "Project 4",
         "slug": "project-4",
-        "image": "images/project-4.png",
+        "image": "",
         "alt": "Project 4 thumbnail",
-        "embedUrl": "webgl/project-4/",
+        "embedUrl": "",
         "external": false,
-        "description": "",
-        "author": "Author 4"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 4",
+        "links": [
+            {
+                "name": "Author 4's Website",
+                "url": ""
+            }
+        ]
     },
     {
         "title": "Project 5",
         "slug": "project-5",
-        "image": "images/project-5.png",
+        "image": "",
         "alt": "Project 5 thumbnail",
-        "embedUrl": "webgl/project-5/",
+        "embedUrl": "",
         "external": false,
-        "description": "",
-        "author": "Author 5"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 5",
+        "links": [
+            {
+                "name": "Author 5's Website",
+                "url": ""
+            }
+        ]
     },
     {
         "title": "Project 6",
         "slug": "project-6",
-        "image": "images/project-6.png",
+        "image": "",
         "alt": "Project 6 thumbnail",
-        "embedUrl": "webgl/project-6/",
+        "embedUrl": "",
         "external": false,
-        "description": "",
-        "author": "Author 6"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 6",
+        "links": [
+            {
+                "name": "Author 6's Website",
+                "url": ""
+            }
+        ]
     },
     {
         "title": "Project 7",
         "slug": "project-7",
-        "image": "images/project-7.png",
+        "image": "",
         "alt": "Project 7 thumbnail",
-        "embedUrl": "webgl/project-7/",
+        "embedUrl": "",
         "external": false,
-        "description": "",
-        "author": "Author 7"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 7",
+        "links": [
+            {
+                "name": "Author 7's Website",
+                "url": ""
+            }
+        ]
     },
     {
         "title": "Project 8",
         "slug": "project-8",
-        "image": "images/project-8.png",
+        "image": "",
         "alt": "Project 8 thumbnail",
-        "embedUrl": "webgl/project-8/",
+        "embedUrl": "",
         "external": false,
-        "description": "",
-        "author": "Author 8"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 8",
+        "links": [
+            {
+                "name": "Author 8's Website",
+                "url": ""
+            }
+        ]
     },
     {
         "title": "Project 9",
         "slug": "project-9",
-        "image": "images/project-9.png",
+        "image": "",
         "alt": "Project 9 thumbnail",
-        "embedUrl": "webgl/project-9/",
+        "embedUrl": "",
         "external": false,
-        "description": "",
-        "author": "Author 9"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 9",
+        "links": [
+            {
+                "name": "Author 9's Website",
+                "url": ""
+            }
+        ]
     },
     {
         "title": "Project 10",
         "slug": "project-10",
-        "image": "images/project-10.png",
+        "image": "",
         "alt": "Project 10 thumbnail",
-        "embedUrl": "webgl/project-10/",
+        "embedUrl": "",
         "external": false,
-        "description": "",
-        "author": "Author 10"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 10",
+        "links": [
+            {
+                "name": "Author 10's Website",
+                "url": ""
+            }
+        ]
     }
 ]
