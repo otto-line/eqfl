@@ -51,10 +51,14 @@ a:hover {
   text-decoration: underline;
 }
 
+a:focus {
+  outline: 2px solid var(--color-link);
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--spacing-small);
   border-bottom: var(--color-border) 2px solid;
   height: fit-content;
   background-color: var(--color-bg);
@@ -197,7 +201,7 @@ a:hover {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-top: 1em;
+  margin-top: var(--spacing-small);
 }
 
 .active {

@@ -56,10 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
                         embedEl.style.display = "none";
                         descEl.textContent += "\n\n This embedded project failed to load. Try viewing it on the external site instead.";
                     };
-                } else if (project.image) {
+                } else {
                     const img = document.createElement("img");
-                    img.src = project.image;
-                    img.alt = project.alt || project.title;
+                    img.src = project.image || "img/backup.png";
+                    img.alt = project.alt || project.title || "Project image";
                     img.classList.add("fallback-image");
                     embedFallback.appendChild(img);
                 }
@@ -82,14 +82,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 const card = document.createElement("div");
                 card.className = "card";
 
-                // Add image if one is specified
-                if (project.image) {
-                    const img = document.createElement("img");
-                    img.src = project.image;
-                    img.alt = project.alt || project.title;
-                    img.classList.add("card-image");
-                    card.appendChild(img);
-                }
+                // Add project image, using fallback if none specified
+                const img = document.createElement("img");
+                img.src = project.image || "img/backup.png";
+                img.alt = project.alt || project.title || "Project image";
+                img.classList.add("card-image");
+                card.appendChild(img);
 
                 // Add link to project info
                 if (project.slug && project.title) {
