@@ -10,7 +10,7 @@
   --color-text: #0118D8;
   --color-link: #0118D8;
   --color-bg: #F8F5E9;
-  --color-border: black;
+  --color-border: #0118D8;
 
   --spacing-small: 1rem;
   --spacing-medium: 2rem;
@@ -53,7 +53,7 @@ a {
 
 .main-container {
   display: grid;
-  border: var(--color-border) 0.5px solid;
+  border: var(--color-border) 2px solid;
   height: fit-content;
   background-color: var(--color-bg);
   grid-template-columns: 1fr;
