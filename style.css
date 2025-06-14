@@ -100,6 +100,10 @@ strong {
   font-family: serif;
 }
 
+.card a {
+  padding-top: 1rem;
+}
+
 .project-info {
   padding: 2rem;
 }
