@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (project.embedUrl) {
                     embedEl.src = project.embedUrl;
                     embedEl.style.display = "block";
+                    embedEl.onerror = () => {
+                        embedEl.style.display = "none";
+                        descEl.textContent += "\n\n⚠️ This embedded project failed to load. Try viewing it on the external site instead.";
+                    };
                 } else if (project.link) {
                     window.location.href = project.link;
                     return;
