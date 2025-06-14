@@ -188,7 +188,7 @@ a:hover {
   text-decoration: underline;;
 }
 
-#modal-video {
+#modal-embed {
   width: 100%;
   height: var(--modal-height);
   border: none;

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const cardsContainer = document.querySelector(".cards");
             const modal = document.getElementById("project-modal");
             const titleEl = document.getElementById("modal-title");
-            const embedEl = document.getElementById("modal-video");
+            const embedEl = document.getElementById("modal-embed");
             const descEl = document.getElementById("modal-description");
             const closeBtn = document.getElementById("modal-close");
 
