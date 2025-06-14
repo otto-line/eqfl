@@ -1,9 +1,11 @@
 [
     {
         "title": "JUNGLE",
+        "slug": "jungle",
         "image": "images/jungle.png",
-        "link": "projects/jungle.html",
-        "alt": "The Jungle thumbnail"
+        "videoId": "6u3JY1d3Zb0",
+        "description": "JUNGLE is a digital zine we created as a digital restpoint...",
+        "alt": "JUNGLE thumbnail"
     },
     {
         "title": "Mediums, between nostalgia and memores",
