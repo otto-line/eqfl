@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     embedEl.onerror = null;
                     embedEl.onerror = () => {
                         embedEl.style.display = "none";
-                        descEl.textContent += "\n\n⚠️ This embedded project failed to load. Try viewing it on the external site instead.";
+                        descEl.textContent += "\n\n This embedded project failed to load. Try viewing it on the external site instead.";
                     };
                 } else if (project.link) {
                     window.location.href = project.link;
