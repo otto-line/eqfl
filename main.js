@@ -40,15 +40,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         linksEl.appendChild(document.createElement("br"));
                     });
                 }
-                
+
                 // Clear and hide any existing embed
                 embedEl.src = "";
                 embedEl.style.display = "none";
 
+                // Display embed if available, otherwise show fallback image
                 const embedFallback = document.getElementById("modal-embed-fallback");
                 embedFallback.innerHTML = "";
 
-                // Display embed if available, otherwise show fallback image
                 if (project.embedUrl) {
                     embedEl.src = project.embedUrl;
                     embedEl.style.display = "block";
