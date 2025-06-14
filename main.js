@@ -55,9 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 link.textContent = project.title;
                 link.addEventListener("click", (e) => {
                     if (project.external && project.embedUrl) {
-                        // open in new tab
                         const newWindow = window.open(project.embedUrl, "_blank", "noopener,noreferrer");
                         if (newWindow) newWindow.opener = null;
+                        return;
                     }
 
                     e.preventDefault();
