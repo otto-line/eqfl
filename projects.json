@@ -11,56 +11,72 @@
         "title": "Mediums, between nostalgia and memories",
         "slug": "mediums-nostalgia-memories",
         "image": "images/Hyunje.png",
-        "embedUrl": "https://your-webgl-host.com/jungle",
-        "description": "JUNGLE is a digital zine we created as a digital restpoint...",
+        "embedUrl": "webgl/mediums-nostalgia-memories/",
+        "description": "",
         "alt": "Mediums, between nostalgia and memories thumbnail"
     },
     {
         "title": "Project 3",
-        "image": "images/lauren.png",
-        "link": "#",
-        "alt": "Project 3"
+        "slug": "project-3",
+        "image": "images/project-3.png",
+        "embedUrl": "webgl/project-3/",
+        "description": "Description for Project 3",
+        "alt": "Project 3 thumbnail"
     },
     {
         "title": "Project 4",
-        "image": "",
-        "link": "#",
-        "alt": "Project 4"
+        "slug": "project-4",
+        "image": "images/project-4.png",
+        "embedUrl": "webgl/project-4/",
+        "description": "Description for Project 4",
+        "alt": "Project 4 thumbnail"
     },
     {
         "title": "Project 5",
-        "image": "",
-        "link": "#",
-        "alt": "Project 5"
+        "slug": "project-5",
+        "image": "images/project-5.png",
+        "embedUrl": "webgl/project-5/",
+        "description": "Description for Project 5",
+        "alt": "Project 5 thumbnail"
     },
     {
         "title": "Project 6",
-        "image": "",
-        "link": "#",
-        "alt": "Project 6"
+        "slug": "project-6",
+        "image": "images/project-6.png",
+        "embedUrl": "webgl/project-6/",
+        "description": "Description for Project 6",
+        "alt": "Project 6 thumbnail"
     },
     {
         "title": "Project 7",
-        "image": "",
-        "link": "#",
-        "alt": "Project 7"
+        "slug": "project-7",
+        "image": "images/project-7.png",
+        "embedUrl": "webgl/project-7/",
+        "description": "Description for Project 7",
+        "alt": "Project 7 thumbnail"
     },
     {
         "title": "Project 8",
-        "image": "",
-        "link": "#",
-        "alt": "Project 8"
+        "slug": "project-8",
+        "image": "images/project-8.png",
+        "embedUrl": "webgl/project-8/",
+        "description": "Description for Project 8",
+        "alt": "Project 8 thumbnail"
     },
     {
         "title": "Project 9",
-        "image": "",
-        "link": "#",
-        "alt": "Project 9"
+        "slug": "project-9",
+        "image": "images/project-9.png",
+        "embedUrl": "webgl/project-9/",
+        "description": "Description for Project 9",
+        "alt": "Project 9 thumbnail"
     },
     {
         "title": "Project 10",
-        "image": "",
-        "link": "#",
-        "alt": "Project 10"
+        "slug": "project-10",
+        "image": "images/project-10.png",
+        "embedUrl": "webgl/project-10/",
+        "description": "Description for Project 10",
+        "alt": "Project 10 thumbnail"
     }
 ]
