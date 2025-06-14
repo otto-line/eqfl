@@ -128,6 +128,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (match) openProjectModal(match);
             }
 
+            // Allow controlling modal with back/forward navigation
+            window.addEventListener("hashchange", () => {
+                const hash = window.location.hash;
+                if (hash.startsWith("#project=")) {
+                    const slug = hash.replace("#project=", "");
+                    const match = projects.find(p => p.slug === slug);
+                    if (match) openProjectModal(match);
+                } else {
+                    closeProjectModal();
+                }
+            });
+
             // Allow closing modal with Escape key
             document.addEventListener("keydown", (e) => {
                 if (e.key === "Escape" && modal.classList.contains("active")) {
