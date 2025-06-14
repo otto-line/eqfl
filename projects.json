@@ -1,0 +1,20 @@
+[
+  {
+    "title": "JUNGLE",
+    "image": "images/jungle.png",
+    "link": "projects/jungle.html",
+    "alt": "The Jungle thumbnail"
+  },
+  {
+    "title": "Mediums, between nostalgia and memores",
+    "image": "images/Hyunje.png",
+    "link": "#",
+    "alt": "Hyunje Park project"
+  },
+  {
+    "title": "Lauren's Project",
+    "image": "images/lauren.png",
+    "link": "#",
+    "alt": "Lauren's project"
+  }
+]
