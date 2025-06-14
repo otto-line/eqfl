@@ -8,6 +8,7 @@
   --font-cards: serif;
 
   --color-text: #0118D8;
+  --color-link: #0118D8;
   --color-bg: #F8F5E9;
   --color-border: black;
 
@@ -101,6 +102,8 @@ strong {
 
 .card a {
   padding-top: var(--spacing-small);
+  color: var(--color-link);
+  text-decoration: none;
 }
 
 .information {
