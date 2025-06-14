@@ -10,8 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
             const closeBtn = document.getElementById("modal-close");
 
             function openProjectModal(project) {
+                modal.classList.remove("active");
                 titleEl.textContent = project.title;
                 descEl.textContent = project.description || "";
+                embedEl.src = "";
                 if (project.embedUrl) {
                     embedEl.src = project.embedUrl;
                     embedEl.style.display = "block";
