@@ -54,13 +54,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 link.href = `?project=${project.slug}`;
                 link.textContent = project.title;
                 link.addEventListener("click", (e) => {
+                    e.preventDefault();
+
                     if (project.external && project.embedUrl) {
                         const newWindow = window.open(project.embedUrl, "_blank", "noopener,noreferrer");
                         if (newWindow) newWindow.opener = null;
                         return;
                     }
 
-                    e.preventDefault();
                     openProjectModal(project);
                 });
 
