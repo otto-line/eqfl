@@ -110,13 +110,6 @@ strong {
   background: none;
   display: none;
   z-index: auto;
-}
-
-.modal.active {
-  display: block;
-}
-
-.modal-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -124,6 +117,10 @@ strong {
   padding: var(--spacing-small);
   margin: var(--spacing-medium) auto;
   gap: var(--spacing-small);
+}
+
+.modal.active {
+  display: block;
 }
 
 .modal-header {
