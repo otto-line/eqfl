@@ -113,8 +113,12 @@ strong {
   margin: var(--spacing-medium) auto;
 }
 
-.modal.active {
+.active {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .modal-text-content {
