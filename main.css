@@ -46,6 +46,11 @@ strong {
   font-style: oblique;
 }
 
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
 .main-container {
   display: grid;
   border: var(--color-border) 0.5px solid;
@@ -102,8 +107,6 @@ strong {
 
 .card a {
   padding-top: var(--spacing-small);
-  color: var(--color-link);
-  text-decoration: none;
 }
 
 .information {
