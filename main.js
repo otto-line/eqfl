@@ -13,12 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 titleEl.textContent = project.title;
                 descEl.textContent = project.description || "";
                 videoEl.src = `https://www.youtube.com/embed/${project.videoId}`;
-                modal.classList.remove("hidden");
+                modal.classList.add("active");
+                cardsContainer.style.display = "none";
                 history.pushState(null, "", `?project=${project.slug}`);
             }
 
             function closeProjectModal() {
-                modal.classList.add("hidden");
+                modal.classList.remove("active");
+                cardsContainer.style.display = "";
                 videoEl.src = ""; // stop video
                 history.pushState(null, "", "index.html");
             }
