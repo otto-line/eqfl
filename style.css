@@ -1,3 +1,20 @@
+:root {
+  --font-size-base: 1.2rem;
+  --font-size-large: 2.2rem;
+  --font-size-title: 5.7vw;
+  --line-height-base: 1.6rem;
+
+  --color-text: #0118D8;
+  --color-bg: #F8F5E9;
+  --color-border: black;
+
+  --spacing-small: 1rem;
+  --spacing-medium: 2rem;
+  --spacing-large: 3rem;
+
+  --modal-height: 80vh;
+}
+
 body {
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
@@ -10,10 +27,10 @@ body {
   -webkit-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
-  font-size: 1.2rem;
-  line-height: 1.6rem;
-  color: #0118D8;
-  background-color: #F8F5E9;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
   font-family: Arial, sans-serif;
   vertical-align: left;
   box-sizing: border-box;
@@ -27,9 +44,9 @@ strong {
 
 .main-container {
   display: grid;
-  border: black 0.5px solid;
+  border: var(--color-border) 0.5px solid;
   height: fit-content;
-  background-color: #F8F5E9;
+  background-color: var(--color-bg);
   grid-template-columns: 1fr;
   grid-template-rows: max-content;
   row-gap: 10px;
@@ -38,24 +55,24 @@ strong {
 .about-container {
   display: grid;
   max-width: 50%;
-  padding-left: 2rem;
+  padding-left: var(--spacing-medium);
 }
 
 .title {
-  font-size: 5.7vw;
+  font-size: var(--font-size-title);
   text-align: left;
-  padding-left: 2rem;
-  padding-top: 2rem;
+  padding-left: var(--spacing-medium);
+  padding-top: var(--spacing-medium);
 }
 
 .header-bar {
   display: flex;
   justify-content: space-between;
-  background-color: #F8F5E9;
+  background-color: var(--color-bg);
   text-align: left;
-  font-size: 2.2rem;
-  padding: 20px;
-  border-bottom: 0.5px solid;
+  font-size: var(--font-size-large);
+  padding: var(--spacing-medium);
+  border-bottom: 0.5px solid var(--color-border);
   text-decoration: none;
 }
 
@@ -63,14 +80,14 @@ strong {
   max-width: fit-content;
   margin: 0 auto;
   display: grid;
-  gap: 3rem;
+  gap: var(--spacing-large);
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   text-align: center;
-  padding: 2rem;
+  padding: var(--spacing-medium);
 }
 
 .card {
-  padding: 2rem;
+  padding: var(--spacing-medium);
   height: 5rem;
   display: flex;
   flex-direction: column;
@@ -80,12 +97,12 @@ strong {
 }
 
 .card a {
-  padding-top: 1rem;
+  padding-top: var(--spacing-small);
 }
 
 .information {
-  font-size: 1.2rem;
-  line-height: 1.7rem;
+  font-size: var(--font-size-base);
+  line-height: calc(var(--line-height-base) + 0.1rem);
 }
 
 .modal {
@@ -104,16 +121,16 @@ strong {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding: 1rem;
-  margin: 2rem auto;
-  gap: 1rem;
+  padding: var(--spacing-small);
+  margin: var(--spacing-medium) auto;
+  gap: var(--spacing-small);
 }
 
 .modal-header {
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 1rem;
+  gap: var(--spacing-small);
   align-items: flex-start;
 }
 
@@ -131,9 +148,9 @@ strong {
 #modal-video {
   flex: 0 0 100%;
   width: 100%;
-  height: 80vh;
+  height: var(--modal-height);
   border: none;
-  margin-top: 1rem;
+  margin-top: var(--spacing-small);
 }
 
 #modal-close {
@@ -142,7 +159,7 @@ strong {
   border: none;
   padding: 0;
   cursor: pointer;
-  margin-right: 1rem;
+  margin-right: var(--spacing-small);
 }
 
 #modal-close img {
