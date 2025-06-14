@@ -12,7 +12,24 @@ document.addEventListener("DOMContentLoaded", () => {
             function openProjectModal(project) {
                 modal.classList.remove("active");
                 titleEl.textContent = project.title;
+                // Set author
+                const authorEl = document.getElementById("modal-author");
+                authorEl.textContent = project.author || "";
                 descEl.textContent = project.description || "";
+                // Set links
+                const linksEl = document.getElementById("modal-links");
+                linksEl.innerHTML = "";
+                if (project.links && Array.isArray(project.links)) {
+                    project.links.forEach(link => {
+                        const a = document.createElement("a");
+                        a.href = link.url;
+                        a.textContent = link.name;
+                        a.target = "_blank";
+                        a.rel = "noopener noreferrer";
+                        linksEl.appendChild(a);
+                        linksEl.appendChild(document.createElement("br"));
+                    });
+                }
                 embedEl.src = "";
                 if (project.embedUrl) {
                     embedEl.src = project.embedUrl;

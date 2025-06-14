@@ -35,23 +35,20 @@ strong {
   row-gap: 10px;
 }
 
-.page-heading {
-  font-size: 5.7vw;
-  text-align: left;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-.title-container {
+.about-container {
   display: grid;
   max-width: 50%;
-  height: 100lvh;
-  place-items: start;
-  padding-top: 80px;
-  padding-left: 20px;
+  padding-left: 2rem;
 }
 
-.header {
+.title {
+  font-size: 5.7vw;
+  text-align: left;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.header-bar {
   display: flex;
   justify-content: space-between;
   background-color: #F8F5E9;
