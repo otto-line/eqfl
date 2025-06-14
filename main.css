@@ -2,12 +2,14 @@
   --font-size-base: 1.2rem;
   --font-size-large: 2.2rem;
   --font-size-title: 5.7vw;
+  --font-size-small: 0.9rem;
   --line-height-base: 1.6rem;
 
   --font-main: Arial, sans-serif;
   --font-cards: serif;
 
   --color-text: #0118D8;
+  --color-text-subtitle: #555;
   --color-link: #0118D8;
   --color-bg: #F8F5E9;
   --color-border: #0118D8;
@@ -171,6 +173,13 @@ a:focus {
 
 #modal-title {
   flex: 0 0 30%;
+  margin: 0;
+}
+
+#modal-quarter {
+  font-size: var(--font-size-small);
+  font-style: italic;
+  color: var(--color-text-subtitle);
   margin: 0;
 }
 
