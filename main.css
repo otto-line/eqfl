@@ -178,6 +178,10 @@ a:focus {
   margin: 0;
 }
 
+#modal-author {
+  margin: 0;
+}
+
 #modal-quarter {
   font-size: var(--font-size-small);
   font-style: italic;
