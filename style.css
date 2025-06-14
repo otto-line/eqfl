@@ -25,10 +25,6 @@ strong {
   font-style: oblique;
 }
 
-.container {
-  padding: 40px;
-}
-
 .main-container {
   display: grid;
   border: black 0.5px solid;
@@ -37,20 +33,6 @@ strong {
   grid-template-columns: 1fr;
   grid-template-rows: max-content;
   row-gap: 10px;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
 }
 
 .page-heading {
@@ -102,10 +84,6 @@ strong {
 
 .card a {
   padding-top: 1rem;
-}
-
-.project-info {
-  padding: 2rem;
 }
 
 .information {
