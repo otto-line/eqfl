@@ -61,7 +61,7 @@ strong {
   display: grid;
   max-width: 50%;
   height: 100lvh;
-  place-items: left;
+  place-items: start;
   padding-top: 80px;
   padding-left: 20px;
 }
