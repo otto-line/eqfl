@@ -20,26 +20,22 @@
 }
 
 body {
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
-  -moz-font-feature-settings: "kern=1";
-  -ms-font-feature-settings: "kern" 1;
-  text-rendering: optimizeLegibility;
-  font-variant-ligatures: common-ligatures;
-  -moz-font-feature-settings: "liga", "dlig";
-  -ms-font-feature-settings: "liga", "dlig";
-  -webkit-font-feature-settings: "liga", "dlig";
-  -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
+  font-family: var(--font-main);
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
   color: var(--color-text);
   background-color: var(--color-bg);
-  font-family: var(--font-main);
-  vertical-align: left;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  vertical-align: left;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-variant-ligatures: common-ligatures;
+  font-feature-settings: "liga", "dlig", "kern";
 }
 
 strong {
