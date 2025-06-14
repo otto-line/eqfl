@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         a.target = "_blank";
                         a.rel = "noopener noreferrer";
                         linksEl.appendChild(a);
-                        linksEl.appendChild(document.createElement("br"));
                     });
                 }
 
@@ -67,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Activate the modal and hide the card grid
                 modal.classList.add("active");
                 cardsContainer.classList.add("hidden");
-                history.pushState(null, "", `?project=${project.slug}`);
+                history.replaceState(null, "", `#project=${project.slug}`);
             }
 
             // Closes the project modal and restores the main card grid
@@ -75,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 modal.classList.remove("active");
                 cardsContainer.classList.remove("hidden");
                 embedEl.src = ""; // stop video
-                history.pushState(null, "", "index.html");
+                history.replaceState(null, "", "#");
             }
 
             // Create a visual card for each project with image and link
@@ -95,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Add link to project info
                 if (project.slug && project.title) {
                     const link = document.createElement("a");
-                    link.href = `?project=${project.slug}`;
+                    link.href = `#project=${project.slug}`;
                     link.textContent = project.title;
                     link.addEventListener("click", (e) => {
                         e.preventDefault();
@@ -119,8 +118,11 @@ document.addEventListener("DOMContentLoaded", () => {
             closeBtn.addEventListener("click", closeProjectModal);
 
             // If a project slug is present in the URL, open its modal directly
-            const params = new URLSearchParams(window.location.search);
-            const slug = params.get("project");
+            const hash = window.location.hash;
+            let slug = null;
+            if (hash.startsWith("#project=")) {
+                slug = hash.replace("#project=", "");
+            }
             if (slug) {
                 const match = projects.find(p => p.slug === slug);
                 if (match) openProjectModal(match);
