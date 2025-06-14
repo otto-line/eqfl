@@ -178,6 +178,12 @@ a:hover {
   margin: 0;
 }
 
+#modal-links {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-small);
+}
+
 #modal-video {
   width: 100%;
   height: var(--modal-height);
