@@ -16,6 +16,9 @@ body {
   background-color: #F8F5E9;
   font-family: Arial, sans-serif;
   vertical-align: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 strong {
@@ -70,7 +73,7 @@ strong {
   display: flex;
   justify-content: space-between;
   background-color: #F8F5E9;
-  text-align: Left;
+  text-align: left;
   font-size: 2.2rem;
   padding: 20px;
   border-bottom: 0.5px solid;
@@ -83,7 +86,6 @@ strong {
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  font-size: 1rem;
   text-align: center;
   padding: 2rem;
 }
