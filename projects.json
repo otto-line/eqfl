@@ -30,7 +30,7 @@
         "external": false,
         "description": "How can different nostalgic memories be mapped to the same object? Does the very fleeting nature of memories make them ever so more important? Can a particular combination of perceived senses evoke a sense of nostalgia? Are there conventions for how nostalgia should look, sound, or feel?
 
-“Mediums, between Nostalgia and Memories” explores how we perceive and experience nostalgia triggered by different mediums. By inviting the player to roam a void-like planet with random encounters with various objects, the game experience encourages them to reflect on moments when they were unexpectedly transported into their core memories, only to return to reality seconds later.  ",
+Mediums, between Nostalgia and Memories explores how we perceive and experience nostalgia triggered by different mediums. By inviting the player to roam a void-like planet with random encounters with various objects, the game experience encourages them to reflect on moments when they were unexpectedly transported into their core memories, only to return to reality seconds later.",
         "author": "Hyunje Brian Park",
         "quarter": "Spring 2025",
         "links": [
@@ -54,6 +54,10 @@
             {
                 "name": "Ruby's Website",
                 "url": "www.rubyquail.design "
+            },
+            {
+                "name": "Ruby's Instragram",
+                "url": "https://www.instagram.com/rubyquaildesign/"
             }
         ]
     },
@@ -96,36 +100,36 @@
         ]
     },
     {
-        "title": "Project 6",
-        "slug": "project-6",
-        "image": "",
-        "alt": "Project 6 thumbnail",
+        "title": "Burned and Boxed",
+        "slug": "burned-and-boxed",
+        "image": "img/burnedandboxed.png",
+        "alt": "burned and boxed thumbnail",
         "embedUrl": "",
         "external": false,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "author": "Author 6",
+        "description": "Placed among an active flame, Burned and Boxed is a digital storage space for our most precious belongings from childhood. Our memories endure time, becoming gradually flawed with new interpretations and memories. They are resilient in recalling pasts, yet also fragile beings filled with subtle inconsistencies. They contain and build new gaps in thought. They are imperfect, and broken. The same is true for cardboard boxes. Alike memories, they are maleable, permeable and susceptable to disintigration. A wandering (eventual time) based experience, the work reflects on an urgent process of containing memories.",
+        "author": "Danielle Mackenzie Long",
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Author 6's Website",
-                "url": ""
+                "name": "Danielle's Instagram' ",
+                "url": "https://www.instagram.com/b_daniellemckz"
             }
         ]
     },
     {
-        "title": "Project 7",
-        "slug": "project-7",
-        "image": "",
-        "alt": "Project 7 thumbnail",
-        "embedUrl": "",
+        "title": "poema e rede",
+        "slug": "poema-e-rede",
+        "image": "img/thiago.jpeg",
+        "alt": "poeme e rede thumbnail",
+        "embedUrl": "https://play.unity.com/en/games/5ca5673a-f046-4d84-85ce-a511f351304d/webgl-builds",
         "external": false,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "author": "Author 7",
+        "description": "This project proposes a multimedia pathway for reading poems, using elements and photographs from the Brazilian Amazon region. It poetically explores an immigrant longing that seeks to stay connected through the creation and re-creation of images—this time, beyond writing, also within a 3D environment",
+        "author": "Thiago Kazu",
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Author 7's Website",
-                "url": ""
+                "name": "Thiago's Instragram",
+                "url": "https://www.instagram.com/thiago_kazu"
             }
         ]
     },
