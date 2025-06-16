@@ -1,102 +1,41 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style.css" rel="stylesheet" />
-        <title>EQUIPMENT FOR LIVING - About</title>
-    </head>
+<html lang="en">
 
-    <section class="grid"> 
-    <div class="container-grid"> 
-        <div class="heading-grid">
-        <div>Projects</div>
-           <div><a href="about.html">About</a></div>
-        
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Project archive for Equipment for Living SFPC class">
+  <base href="/eqfl/">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="main.css" rel="stylesheet" />
+  <title>EQUIPMENT FOR LIVING - Projects</title>
+</head>
 
-          <div class="cards">
-         <div href="" class="card">
-            <img width="120" height="90"src="images/lauren.png">
-            <div>Project Name</div>
-         </div>
-            <div class="card">
-                 <img width="120" height="90"src="images/jungle.png">
-                <div > <a href="projects/jungle.html"> The Jungle </a></div>
-            </div>
-            <div class="card">
-                <img width="120" height="90" src="images/Hyunje.png" alt="Hyunje Park project">
-            <div><a href=""></a>Mediums, between nostalgia and memories</div>
-            </div>
-            <div class="card">FOUR</div>
-            <div class="card">FIVE</div>
-            <div class="card">SIX</div>
-            <div class="card">SEVEN</div>
-            <div class="card">EIGHT</div>
-            <div class="card">NINE</div>
-            <div class="card">TEN</div>
-            <div class="card">ELEVEN</div>
-            <div class="card">TWELVE</div>
-
+<body>
+  <div class="main-container">
+    <nav class="header-bar">
+      <a href="#">Projects</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="cards"></div>
+  </div>
+  <div id="project-modal" class="project-modal">
+    <div class="modal-text-content">
+      <button id="modal-close" class="arrow-link">&#x21A9;</button>
+      <div class="modal-title-block">
+        <h2 id="modal-title"></h2>
+        <p id="modal-author"></p>
+        <p id="modal-quarter"></p>
+      </div>
+      <div class="modal-description-block">
+        <p id="modal-description"></p>
+        <div id="modal-links" class="modal-links"></div>
+      </div>
     </div>
+    <iframe id="modal-embed" src="" frameborder="0" allowfullscreen style="display: none;"></iframe>
+    <div id="modal-embed-fallback"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
 
-
-
-
-        <!-- <div class="row-1"> <div><img width="120" height="70" src="images/jungle.png" ><a href="projects/jungle.html">
-            <br> The Jungle
-
-        </a> </div>
-            <div href="">Hyunje Park</div>
-            <div >Lauran</div>
-            <div href="">Jose</div>
-
-        </div>
-        <div class="row-1">Sam
-             <div>Ezra</div>
-            <div>Claudia</div>
-            <div>Natasha</div>
-        </div> 
-        
-        <div class="row-1">Ari
-        <div >Sharon</div>
-        <div >Jou an</div>
-        <div >Kristen</div>
-        </div>
-       
-        <div class="row-1">Jou an</div>
-        <div class="row-1">Kristen</div>
-        <div class="row-1">7</div>
-        <div class="row-1">8</div>
-        <div class="row-1">9</div>
-        <div class="row-1">10</div>
-        <div class="row-1">11</div>
-        <div class="row-1">12</div>
-        <div class="row-1"> 13
-        </div>
-    
-    </div> -->
-
-</section>
-
-<!-- Table example
-<div>
-    <table>
-  <tr>
-    <th>Project Name </th>
-    <th>Artist(s) Name</th>
-    <th>Format</th>
-  </tr>
-  <tr>
-    <td>" "</td>
-    <td>Lauren</td>
-    <td>3-D/ Video</td>
-  </tr>
-  <tr>
-    <td>3-D/ Video</td>
-    <td>Hyunje Park</td>
-    <td>Game</td>
-  </tr>
-</table>
-</div> -->
-
+</html>

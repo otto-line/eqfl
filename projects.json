@@ -1,0 +1,176 @@
+[
+    {
+        "title": "JUNGLE",
+        "slug": "jungle",
+        "image": "img/jungle.png",
+        "alt": "JUNGLE thumbnail",
+        "embedUrl": "https://kvnchpl.com/jungle/",
+        "external": false,
+        "description": "JUNGLE is a digital zine we created as a digital restpoint—a place for viewers to pause, drift, and reorient themselves in the midst of an overstimulated world. The pages are fragments—poems, images, and 3D environments—each one linking through hypertext.",
+        "author": "Kevin Cunanan Chappelle and Lisa Yang",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Kevin's Website",
+                "url": "https://kvnchpl.com"
+            },
+            {
+                "name": "Lisa's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Mediums, between nostalgia and memories",
+        "slug": "mediums-nostalgia-memories",
+        "image": "img/mediums-nostalgia-memories.png",
+        "alt": "Mediums, between nostalgia and memories thumbnail",
+        "embedUrl": "webgl/mediums-nostalgia-memories/",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Hyunje Brian Park",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Hyunje's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Project 3",
+        "slug": "project-3",
+        "image": "img/backup.png",
+        "alt": "Project 3 thumbnail",
+        "embedUrl": "",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 3",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Author 3's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Project 4",
+        "slug": "project-4",
+        "image": "",
+        "alt": "Project 4 thumbnail",
+        "embedUrl": "",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 4",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Author 4's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Project 5",
+        "slug": "project-5",
+        "image": "",
+        "alt": "Project 5 thumbnail",
+        "embedUrl": "",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 5",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Author 5's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Project 6",
+        "slug": "project-6",
+        "image": "",
+        "alt": "Project 6 thumbnail",
+        "embedUrl": "",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 6",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Author 6's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Project 7",
+        "slug": "project-7",
+        "image": "",
+        "alt": "Project 7 thumbnail",
+        "embedUrl": "",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 7",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Author 7's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Project 8",
+        "slug": "project-8",
+        "image": "",
+        "alt": "Project 8 thumbnail",
+        "embedUrl": "",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 8",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Author 8's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Project 9",
+        "slug": "project-9",
+        "image": "",
+        "alt": "Project 9 thumbnail",
+        "embedUrl": "",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 9",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Author 9's Website",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "title": "Project 10",
+        "slug": "project-10",
+        "image": "",
+        "alt": "Project 10 thumbnail",
+        "embedUrl": "",
+        "external": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "author": "Author 10",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Author 10's Website",
+                "url": ""
+            }
+        ]
+    }
+]
