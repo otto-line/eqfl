@@ -20,8 +20,7 @@
             }
         ]
     },
-
-    {
+    {   
         "title": "Mediums, between nostalgia and memories",
         "slug": "mediums-nostalgia-memories",
         "image": "img/mediums-nostalgia-memories.png",
@@ -60,23 +59,19 @@
         ]
     },
     {
-        "title": "Nhandereko",
-        "slug": "Nhandereko",
-        "image": "img/Nhandereko.png",
-        "alt": "Nhandereko thumbnail",
-        "embedUrl": "https://play.unity.com/en/games/8cdc27be-c922-485a-9852-903915b5255e/nhandereko",
+        "title": "I have been wondering about gates ever since I left mine open last wednesday",
+        "slug": "gates",
+        "image": "img/gates.png",
+        "alt": "gates",
+        "embedUrl": "https://otto-line.github.io/gates/",
         "external": false,
-        "description": "The word Nhandereko, which means way of life in Guaraní (an Indigenous Andean language), served as the starting point for this sculptural and poetic reflection on connections to a homeland, familial ties, memories, and the experiences we encounter as we navigate different geographical and cultural contexts throughout our lives.",
-        "author": "María José Castillo",
+        "description": "Gates is an online narrative fiction created for the School of Poetic Computation. It features 3D scanned gates,weaved into a story detailing the thoughts of an obsssed character. The website was coded using html,css,three.js and made using a combination of photoshop,blender and photo-grammtery applications. Please click on the link and be patient",
+        "author": "sam",
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "José Website",
-                "url": "wordsareobjects.com"
-            },
-            {
-                "name": "José Instragram",
-                "url": "https://www.instagram.com/wordsareobjects"
+            "name": "Sam Instagram",
+            "url": "https://www.instagram.com/samsamsamesam/"
             }
         ]
     },
@@ -185,7 +180,8 @@
                 "url": "https://jou.design/"
             }
         ]
-    }, {
+    }, 
+    {
         "title": "2020 Poetic Cypher",
         "slug": "2020-Poetic-Cypher",
         "image": "img/lauren.png",
@@ -201,7 +197,8 @@
                 "url": "www.youtube.com/@LproduccionL"
             }
         ]
-    } , {
+    }, 
+    {
         "title": "Susan Liu's Project",
         "slug": "Susan-Liu-Project",
         "image": "img/susan.png",
@@ -217,22 +214,7 @@
                 "url": "https://www.instagram.com/yousuzeyoulius"
             }
         ]
-    } ,{
-  "title": "I have been wondering about gates ever since I left mine open last wednesday",
-  "slug": "gates",
-  "image": "img/gates.png",
-  "alt": "gates",
-  "embedUrl": "https://otto-line.github.io/gates/",
-  "external": true,
-  "description": "Gates is an online narrative fiction created for the School of Poetic Computation. It features 3D scanned gates,weaved into a story detailing the thoughts of an obsssed character. The website was coded using html,css,three.js and made using a combination of photoshop,blender and photo-grammtery applications.",
-  "author": "sam",
-  "quarter": "Spring 2025",
-  "links": [
-    {
-      "name": "Sam Instagram",
-      "url": "https://www.instagram.com/samsamsamesam/"
-    }
-  ]
-}
+    },
+    
 
 ]
