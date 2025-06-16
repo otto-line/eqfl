@@ -30,7 +30,7 @@
         "external": false,
         "description": "How can different nostalgic memories be mapped to the same object? Does the very fleeting nature of memories make them ever so more important? Can a particular combination of perceived senses evoke a sense of nostalgia? Are there conventions for how nostalgia should look, sound, or feel?
 
-Mediums, between Nostalgia and Memories explores how we perceive and experience nostalgia triggered by different mediums. By inviting the player to roam a void-like planet with random encounters with various objects, the game experience encourages them to reflect on moments when they were unexpectedly transported into their core memories, only to return to reality seconds later.",
+Mediums, between Nostalgia and Memories explores how we perceive and experience nostalgia triggered by different mediums. By inviting the player to roam a void-like planet with random encounters with various objects, the game experience encourages them to reflect on moments when they were unexpectedly transported into their core memories, only to return to reality seconds later.  ",
         "author": "Hyunje Brian Park",
         "quarter": "Spring 2025",
         "links": [
@@ -134,19 +134,19 @@ Mediums, between Nostalgia and Memories explores how we perceive and experience 
         ]
     },
     {
-        "title": "Project 8",
-        "slug": "project-8",
-        "image": "",
-        "alt": "Project 8 thumbnail",
-        "embedUrl": "",
+        "title": "Inside my Orange Suitcase",
+        "slug": "inside-my-orange-suitcase",
+        "image": "img/natasha.png",
+        "alt": "inside my orange suitcase thumbnail",
+        "embedUrl": " https://play.unity.com/en/games/c5730246-1ff2-460f-b56b-89ccd3f8edb8/inside-my-orange-suitcase   ",
         "external": false,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "author": "Author 8",
+        "description": "Inside my Orange Suitcase is a project that I conceptualized while living out of my suitcase, after moving to a new country. I created the piece as a reflection on travel, transition, lessons learned and ultimately coming out the other side of discomfort, melancholy and transcience okay.",
+        "author": "Natasha Khanyola",
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Author 8's Website",
-                "url": ""
+                "name": "Natasha's Instragram",
+                "url": "https://www.instagram.com/tashakyola"
             }
         ]
     },
