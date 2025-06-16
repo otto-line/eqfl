@@ -201,5 +201,21 @@
                 "url": "www.youtube.com/@LproduccionL"
             }
         ]
+    } , {
+        "title": "Susan Liu's Project",
+        "slug": "Susan-Liu-Project",
+        "image": "img/susan.png",
+        "alt": "daytrip XP thumbnail",
+        "embedUrl": "img/Take6.mp4",
+        "external": false,
+        "description": "This is a visual poem spontaenously created in reflection and in conversation with the first reading, Equipment for Living by Michael Robbins. Inspired by multiple mediums, I channeled lyrics, past work, my artistic journey, and metaphors to memorialize the ongoing pandemic, genocides, grief, etc. that's been a kaleidoscope loop since 2020, prior, and beyond.",
+        "author": "Susan Liu",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Lauren's Youtube",
+                "url": "https://www.instagram.com/yousuzeyoulius"
+            }
+        ]
     }
 ]
