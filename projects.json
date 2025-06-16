@@ -15,11 +15,12 @@
                 "url": "https://kvnchpl.com"
             },
             {
-                "name": "Lisa's Website",
-                "url": ""
+                "name": "Lisa's Instagram",
+                "url": "https://www.instagram.com/imlishayang"
             }
         ]
     },
+
     {
         "title": "Mediums, between nostalgia and memories",
         "slug": "mediums-nostalgia-memories",
@@ -27,47 +28,53 @@
         "alt": "Mediums, between nostalgia and memories thumbnail",
         "embedUrl": "webgl/mediums-nostalgia-memories/",
         "external": false,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "How can different nostalgic memories be mapped to the same object? Does the very fleeting nature of memories make them ever so more important? Can a particular combination of perceived senses evoke a sense of nostalgia? Are there conventions for how nostalgia should look, sound, or feel?
+
+“Mediums, between Nostalgia and Memories” explores how we perceive and experience nostalgia triggered by different mediums. By inviting the player to roam a void-like planet with random encounters with various objects, the game experience encourages them to reflect on moments when they were unexpectedly transported into their core memories, only to return to reality seconds later.  ",
         "author": "Hyunje Brian Park",
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Hyunje's Website",
-                "url": ""
+                "name": "Hyunje's Instagram",
+                "url": "https://www.instagram.com/b_park02/"
             }
         ]
     },
     {
-        "title": "Project 3",
-        "slug": "project-3",
-        "image": "img/backup.png",
-        "alt": "Project 3 thumbnail",
-        "embedUrl": "",
+        "title": "Shrine",
+        "slug": "shrine",
+        "image": "img/ruby.png",
+        "alt": "Shrine thumbnail",
+        "embedUrl": "https://equipment-for-shrineing.neocities.org/",
         "external": false,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "author": "Author 3",
+        "description": "Shrine is a small little space to relax with a small amount of interactivity, you can light and extinguish candles, and just sit in the space and think",
+        "author": "Ruby Quail",
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Author 3's Website",
-                "url": ""
+                "name": "Ruby's Website",
+                "url": "www.rubyquail.design "
             }
         ]
     },
     {
-        "title": "Project 4",
-        "slug": "project-4",
-        "image": "",
-        "alt": "Project 4 thumbnail",
-        "embedUrl": "",
+        "title": "Nhandereko",
+        "slug": "Nhandereko",
+        "image": "img/Nhandereko.png",
+        "alt": "Nhandereko thumbnail",
+        "embedUrl": "https://play.unity.com/en/games/8cdc27be-c922-485a-9852-903915b5255e/nhandereko",
         "external": false,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "author": "Author 4",
+        "description": "The word Nhandereko, which means way of life in Guaraní (an Indigenous Andean language), served as the starting point for this sculptural and poetic reflection on connections to a homeland, familial ties, memories, and the experiences we encounter as we navigate different geographical and cultural contexts throughout our lives.",
+        "author": "María José Castillo",
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Author 4's Website",
-                "url": ""
+                "name": "José Website",
+                "url": "wordsareobjects.com"
+            },
+            {
+                "name": "José Instragram",
+                "url": "https://www.instagram.com/wordsareobjects"
             }
         ]
     },
