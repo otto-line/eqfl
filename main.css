@@ -193,6 +193,7 @@ a:focus {
   flex: 1;
   padding-left: 0;
   margin: 0;
+  color: rgb(87, 82, 97)
 }
 
 #modal-links {
@@ -244,3 +245,4 @@ a:focus {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+

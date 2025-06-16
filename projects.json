@@ -51,7 +51,7 @@
         "links": [
             {
                 "name": "Ruby's Website",
-                "url": "www.rubyquail.design "
+                "url": "www.rubyquail.design"
             },
             {
                 "name": "Ruby's Instragram",
@@ -109,7 +109,7 @@
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Danielle's Instagram' ",
+                "name": "Danielle's Instagram",
                 "url": "https://www.instagram.com/b_daniellemckz"
             }
         ]
@@ -136,7 +136,7 @@
         "slug": "inside-my-orange-suitcase",
         "image": "img/natasha.png",
         "alt": "inside my orange suitcase thumbnail",
-        "embedUrl": " https://play.unity.com/en/games/c5730246-1ff2-460f-b56b-89ccd3f8edb8/inside-my-orange-suitcase   ",
+        "embedUrl": "https://play.unity.com/en/games/c5730246-1ff2-460f-b56b-89ccd3f8edb8/inside-my-orange-suitcase",
         "external": false,
         "description": "Inside my Orange Suitcase is a project that I conceptualized while living out of my suitcase, after moving to a new country. I created the piece as a reflection on travel, transition, lessons learned and ultimately coming out the other side of discomfort, melancholy and transcience okay.",
         "author": "Natasha Khanyola",
@@ -217,5 +217,22 @@
                 "url": "https://www.instagram.com/yousuzeyoulius"
             }
         ]
+    } ,{
+  "title": "I have been wondering about gates ever since I left mine open last wednesday",
+  "slug": "gates",
+  "image": "img/gates.png",
+  "alt": "gates",
+  "embedUrl": "https://otto-line.github.io/gates/",
+  "external": true,
+  "description": "Gates is an online narrative fiction created for the School of Poetic Computation. It features 3D scanned gates,weaved into a story detailing the thoughts of an obsssed character. The website was coded using html,css,three.js and made using a combination of photoshop,blender and photo-grammtery applications.",
+  "author": "sam",
+  "quarter": "Spring 2025",
+  "links": [
+    {
+      "name": "Sam instagram",
+      "url": "https://www.instagram.com/samsamsamesam/"
     }
+  ]
+}
+
 ]
