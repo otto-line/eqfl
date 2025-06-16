@@ -120,7 +120,7 @@ a:focus {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
   font-family: var(--font-cards);
   box-sizing: border-box;
 }
