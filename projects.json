@@ -231,7 +231,30 @@
                 "url": "https://ariduongnguyen.cargo.site/"
             }
         ]
+    }, 
+    {
+        "title": "Fallen Artifacts",
+        "slug": "Khush-Project",
+        "image": "",
+        "alt": "Fallen Artifacts Thumbnail",
+        "embedUrl": "https://drive.google.com/file/d/1N2moS9o2r5EnFNcSmFFngDv6q_EGz_66/view",
+        "external": false,
+        "description": "Fallen Artifacts asks: Can space debris, discarded and forgotten, become a tool for reflection? Can these fragments help us understand purity and contamination, human ambition and environmental consequence?",
+        "author": "Khush",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Khush's Website",
+                "url": "https://khush.space"
+            } 
+            {
+                "name": "Khush's Instagram",
+                "url": "https://www.instagram.com/khush.space/"
+            }
+        ]
     }
+    
+
     
 
 ]
