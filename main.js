@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 embedEl.src = "";
                 embedEl.style.display = "none";
 
-                // Display embed if available, otherwise show fallback image
+                // Display embed if available, otherwise show project image or thumbnail as fallback
                 const embedFallback = document.getElementById("modal-embed-fallback");
                 embedFallback.innerHTML = "";
 
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const card = document.createElement("div");
                 card.className = "card";
 
-                // Add project image, using fallback if none specified
+                // Add thumbnail image to card, using backup if none specified
                 const img = document.createElement("img");
                 img.src = project.thumbnailImage || "img/backup.png";
                 img.alt = project.thumbnailAlt || project.title || "Project image";
