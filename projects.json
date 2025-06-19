@@ -105,9 +105,9 @@
     {
         "title": "Burned and Boxed",
         "slug": "burned-and-boxed",
-        "thumbnailImage": "img/burnedandboxed_thumbnail.webp",
+        "thumbnailImage": "img/burned-and-boxed_thumbnail.webp",
         "thumbnailAlt": "burned and boxed thumbnail",
-        "projectImage": "img/burnedandboxed.png",
+        "projectImage": "img/burned-and-boxed.png",
         "projectAlt": "burned and boxed screenshot",
         "embedUrl": "",
         "external": false,
