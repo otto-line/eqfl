@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Add thumbnail image to card, using backup if none specified
                 const img = document.createElement("img");
-                img.src = project.thumbnailImage || "img/backup.png";
+                img.src = project.thumbnailImage || "img/backup_thumbnail.webp";
                 img.alt = project.thumbnailAlt || project.title || "Project image";
                 img.classList.add("card-image");
                 card.appendChild(img);
