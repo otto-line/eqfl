@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     embedFallback.appendChild(img);
                 }
                 // Activate the modal and hide the card grid
+                window.scrollTo(0, 0);
                 modal.classList.add("active");
                 cardsContainer.classList.add("hidden");
                 history.replaceState(null, "", `#project=${project.slug}`);
