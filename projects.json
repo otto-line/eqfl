@@ -2,8 +2,10 @@
     {
         "title": "JUNGLE",
         "slug": "jungle",
-        "image": "img/jungle.png",
-        "alt": "JUNGLE thumbnail",
+        "thumbnailImage": "img/jungle.png",
+        "thumbnailAlt": "JUNGLE thumbnail",
+        "projectImage": "img/jungle.png",
+        "projectAlt": "JUNGLE thumbnail",
         "embedUrl": "https://kvnchpl.com/jungle/",
         "external": false,
         "description": "JUNGLE is a digital zine we created as a digital restpoint—a place for viewers to pause, drift, and reorient themselves in the midst of an overstimulated world. The pages are fragments—poems, images, and 3D environments—each one linking through hypertext.",
@@ -20,11 +22,13 @@
             }
         ]
     },
-    {   
+    {
         "title": "Mediums, between nostalgia and memories",
         "slug": "mediums-nostalgia-memories",
-        "image": "img/mediums-nostalgia-memories.png",
-        "alt": "Mediums, between nostalgia and memories thumbnail",
+        "thumbnailImage": "img/mediums-nostalgia-memories.png",
+        "thumbnailAlt": "Mediums, between nostalgia and memories thumbnail",
+        "projectImage": "img/mediums-nostalgia-memories.png",
+        "projectAlt": "Mediums, between nostalgia and memories thumbnail",
         "embedUrl": "webgl/mediums-nostalgia-memories/",
         "external": false,
         "description": "How can different nostalgic memories be mapped to the same object? Does the very fleeting nature of memories make them ever so more important? Can a particular combination of perceived senses evoke a sense of nostalgia? Are there conventions for how nostalgia should look, sound, or feel? Mediums, between Nostalgia and Memories explores how we perceive and experience nostalgia triggered by different mediums. By inviting the player to roam a void-like planet with random encounters with various objects, the game experience encourages them to reflect on moments when they were unexpectedly transported into their core memories, only to return to reality seconds later.  ",
@@ -40,8 +44,10 @@
     {
         "title": "Shrine",
         "slug": "shrine",
-        "image": "img/ruby.png",
-        "alt": "Shrine thumbnail",
+        "thumbnailImage": "img/ruby.png",
+        "thumbnailAlt": "Shrine thumbnail",
+        "projectImage": "img/ruby.png",
+        "projectAlt": "Shrine thumbnail",
         "embedUrl": "https://equipment-for-shrineing.neocities.org/",
         "external": false,
         "description": "Shrine is a small little space to relax with a small amount of interactivity, you can light and extinguish candles, and just sit in the space and think",
@@ -61,8 +67,10 @@
     {
         "title": "I have been wondering about gates ever since I left mine open last wednesday",
         "slug": "gates",
-        "image": "img/gates.png",
-        "alt": "gates",
+        "thumbnailImage": "img/gates.png",
+        "thumbnailAlt": "gates",
+        "projectImage": "img/gates.png",
+        "projectAlt": "gates",
         "embedUrl": "https://otto-line.github.io/gates/",
         "external": false,
         "description": "Gates is an online narrative fiction created for the School of Poetic Computation. It features 3D scanned gates,weaved into a story detailing the thoughts of an obsssed character. The website was coded using html,css,three.js and made using a combination of photoshop,blender and photo-grammtery applications. Please click on the link and be patient",
@@ -70,16 +78,18 @@
         "quarter": "Spring 2025",
         "links": [
             {
-            "name": "Sam Instagram",
-            "url": "https://www.instagram.com/samsamsamesam/"
+                "name": "Sam Instagram",
+                "url": "https://www.instagram.com/samsamsamesam/"
             }
         ]
     },
     {
         "title": "Shadows",
         "slug": "shadows",
-        "image": "img/wendy.png",
-        "alt": "Shadow's thumbnail",
+        "thumbnailImage": "img/wendy.png",
+        "thumbnailAlt": "Shadow's thumbnail",
+        "projectImage": "img/wendy.png",
+        "projectAlt": "Shadow's thumbnail",
         "embedUrl": "https://play.unity.com/en/games/b4b2dc8d-523f-45c2-ad8f-08746c7cbff8/shadows",
         "external": false,
         "description": "There’s comfort in simple answers and black-and-white narratives, but almost everything I encounter occupies a disconcerting in-between zone. This is the space where we can acknowledge subjectivities that get buried, realize compassion, and uncover common ground in the midst of inner beliefs and external systems that benefit from flattened representations. I was riffing on the idea of a classic shape-sorter baby toy, and wanted to design complex blocks that fit multiple holes; that morphed into a short, interactive story. Introducing: Shadows. Quantum ogres abound.",
@@ -95,8 +105,10 @@
     {
         "title": "Burned and Boxed",
         "slug": "burned-and-boxed",
-        "image": "img/burnedandboxed.png",
-        "alt": "burned and boxed thumbnail",
+        "thumbnailImage": "img/burnedandboxed.png",
+        "thumbnailAlt": "burned and boxed thumbnail",
+        "projectImage": "img/burnedandboxed.png",
+        "projectAlt": "burned and boxed thumbnail",
         "embedUrl": "",
         "external": false,
         "description": "Placed among an active flame, Burned and Boxed is a digital storage space for our most precious belongings from childhood. Our memories endure time, becoming gradually flawed with new interpretations and memories. They are resilient in recalling pasts, yet also fragile beings filled with subtle inconsistencies. They contain and build new gaps in thought. They are imperfect, and broken. The same is true for cardboard boxes. Alike memories, they are maleable, permeable and susceptable to disintigration. A wandering (eventual time) based experience, the work reflects on an urgent process of containing memories.",
@@ -112,8 +124,10 @@
     {
         "title": "poema e rede",
         "slug": "poema-e-rede",
-        "image": "img/thiago.jpeg",
-        "alt": "poeme e rede thumbnail",
+        "thumbnailImage": "img/thiago.jpeg",
+        "thumbnailAlt": "poeme e rede thumbnail",
+        "projectImage": "img/thiago.jpeg",
+        "projectAlt": "poeme e rede thumbnail",
         "embedUrl": "https://play.unity.com/en/games/5ca5673a-f046-4d84-85ce-a511f351304d/webgl-builds",
         "external": false,
         "description": "This project proposes a multimedia pathway for reading poems, using elements and photographs from the Brazilian Amazon region. It poetically explores an immigrant longing that seeks to stay connected through the creation and re-creation of images—this time, beyond writing, also within a 3D environment",
@@ -129,8 +143,10 @@
     {
         "title": "Inside my Orange Suitcase",
         "slug": "inside-my-orange-suitcase",
-        "image": "img/natasha.png",
-        "alt": "inside my orange suitcase thumbnail",
+        "thumbnailImage": "img/natasha.png",
+        "thumbnailAlt": "inside my orange suitcase thumbnail",
+        "projectImage": "img/natasha.png",
+        "projectAlt": "inside my orange suitcase thumbnail",
         "embedUrl": "https://play.unity.com/en/games/c5730246-1ff2-460f-b56b-89ccd3f8edb8/inside-my-orange-suitcase",
         "external": false,
         "description": "Inside my Orange Suitcase is a project that I conceptualized while living out of my suitcase, after moving to a new country. I created the piece as a reflection on travel, transition, lessons learned and ultimately coming out the other side of discomfort, melancholy and transcience okay.",
@@ -146,8 +162,10 @@
     {
         "title": "I feel as useful as dirt ",
         "slug": "i-feel-as-useful-as-dirt ",
-        "image": "",
-        "alt": "I feel as useful as dirt thumbnail",
+        "thumbnailImage": "",
+        "thumbnailAlt": "I feel as useful as dirt thumbnail",
+        "projectImage": "",
+        "projectAlt": "I feel as useful as dirt thumbnail",
         "embedUrl": "Coming soon",
         "external": false,
         "description": "This is a project that is unraveling the essence of dirt both conventionally and metaphorically. Inspired by Spring, Hozier & Allison Russell's wildflower & barley and Yasmin Zaher the coin, I aim to explore how our interaction with nature enables us to understand what it means to trust the process that eventually culminates into blooming.",
@@ -163,8 +181,10 @@
     {
         "title": "Daytrip XP",
         "slug": "Daytrip-XP",
-        "image": "img/daytrip.png",
-        "alt": "daytrip XP thumbnail",
+        "thumbnailImage": "img/daytrip.png",
+        "thumbnailAlt": "daytrip XP thumbnail",
+        "projectImage": "img/daytrip.png",
+        "projectAlt": "daytrip XP thumbnail",
         "embedUrl": "",
         "external": false,
         "description": "Daytrip XP is an environmental still life of the mess of everyday digitals. I created this sketch as a window into the frustrations of archiving, a topic inspired by the readings with Equipment of Living. Visitors can take a moment of rest in a landscape reminiscent of classic desktops. Strange objects may litter around and clutter the scenic view but they will clear up in time.",
@@ -174,18 +194,20 @@
             {
                 "name": "Jou's Insgtragram",
                 "url": "https://www.instagram.com/real.raingir1"
-            }, 
-             {
+            },
+            {
                 "name": "Jou's Website",
                 "url": "https://jou.design/"
             }
         ]
-    }, 
+    },
     {
         "title": "2020 Poetic Cypher",
         "slug": "2020-Poetic-Cypher",
-        "image": "img/lauren.png",
-        "alt": "daytrip XP thumbnail",
+        "thumbnailImage": "img/lauren.png",
+        "thumbnailAlt": "daytrip XP thumbnail",
+        "projectImage": "img/lauren.png",
+        "projectAlt": "daytrip XP thumbnail",
         "embedUrl": "https://youtu.be/SUoOG_mmmxM ",
         "external": false,
         "description": "This is a visual poem spontaenously created in reflection and in conversation with the first reading, Equipment for Living by Michael Robbins. Inspired by multiple mediums, I channeled lyrics, past work, my artistic journey, and metaphors to memorialize the ongoing pandemic, genocides, grief, etc. that's been a kaleidoscope loop since 2020, prior, and beyond.",
@@ -197,12 +219,14 @@
                 "url": "www.youtube.com/@LproduccionL"
             }
         ]
-    }, 
+    },
     {
         "title": "Susan Liu's Project",
         "slug": "Susan-Liu-Project",
-        "image": "img/susan.png",
-        "alt": "daytrip XP thumbnail",
+        "thumbnailImage": "img/susan.png",
+        "thumbnailAlt": "daytrip XP thumbnail",
+        "projectImage": "img/susan.png",
+        "projectAlt": "daytrip XP thumbnail",
         "embedUrl": "img/Take6.mp4",
         "external": false,
         "description": "This is a visual poem spontaenously created in reflection and in conversation with the first reading, Equipment for Living by Michael Robbins. Inspired by multiple mediums, I channeled lyrics, past work, my artistic journey, and metaphors to memorialize the ongoing pandemic, genocides, grief, etc. that's been a kaleidoscope loop since 2020, prior, and beyond.",
@@ -218,8 +242,10 @@
     {
         "title": "Creek",
         "slug": "Ari-duong Nguyen-Project",
-        "image": "",
-        "alt": "Creek",
+        "thumbnailImage": "",
+        "thumbnailAlt": "Creek",
+        "projectImage": "",
+        "projectAlt": "Creek",
         "embedUrl": "",
         "external": false,
         "description": "Inspired by, and embracing, the imperfection of iphone 3D scanning. Creek reassembles objects, scenes, and my human thoughts from newtown creek. Creek encourages getting lost, seeing through the fragile infrastructure of 3D scanned objects and meeting the [inanimate] creatures of the creek up close. though these objects and scenes cannot escape weathering, they are here frozen in time. the eyes see the creek in the full projection of its water, horizon, and sky. yet the hands, preoccupied with morphing real life into pixels, only access what is humanly, bodily possible. ",
@@ -231,12 +257,14 @@
                 "url": "https://ariduongnguyen.cargo.site/"
             }
         ]
-    }, 
+    },
     {
         "title": "Fallen Artifacts",
         "slug": "Khush-Project",
-        "image": "",
-        "alt": "Fallen Artifacts Thumbnail",
+        "thumbnailImage": "",
+        "thumbnailAlt": "Fallen Artifacts Thumbnail",
+        "projectImage": "",
+        "projectAlt": "Fallen Artifacts Thumbnail",
         "embedUrl": "https://drive.google.com/file/d/1N2moS9o2r5EnFNcSmFFngDv6q_EGz_66/view",
         "external": false,
         "description": "Fallen Artifacts asks: Can space debris, discarded and forgotten, become a tool for reflection? Can these fragments help us understand purity and contamination, human ambition and environmental consequence?",
@@ -246,15 +274,11 @@
             {
                 "name": "Khush's Website",
                 "url": "https://khush.space"
-            }, 
+            },
             {
                 "name": "Khush's Instagram",
                 "url": "https://www.instagram.com/khush.space/"
             }
         ]
     }
-    
-
-    
-
 ]

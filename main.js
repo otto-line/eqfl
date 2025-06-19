@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     };
                 } else {
                     const img = document.createElement("img");
-                    img.src = project.image || "img/backup.png";
-                    img.alt = project.alt || project.title || "Project image";
+                    img.src = project.projectImage || project.thumbnailImage || "img/backup.png";
+                    img.alt = project.projectAlt || project.thumbnailAlt || project.title || "Project image";
                     img.classList.add("fallback-image");
                     embedFallback.appendChild(img);
                 }
@@ -88,8 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Add project image, using fallback if none specified
                 const img = document.createElement("img");
-                img.src = project.image || "img/backup.png";
-                img.alt = project.alt || project.title || "Project image";
+                img.src = project.thumbnailImage || "img/backup.png";
+                img.alt = project.thumbnailAlt || project.title || "Project image";
                 img.classList.add("card-image");
                 card.appendChild(img);
 
