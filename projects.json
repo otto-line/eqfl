@@ -56,10 +56,10 @@
         "links": [
             {
                 "name": "Ruby's Website",
-                "url": "www.rubyquail.design"
+                "url": "https://www.rubyquail.design"
             },
             {
-                "name": "Ruby's Instragram",
+                "name": "Ruby's Instagram",
                 "url": "https://www.instagram.com/rubyquaildesign/"
             }
         ]
@@ -97,7 +97,7 @@
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Wendy's Instragram",
+                "name": "Wendy's Instagram",
                 "url": "https://www.instagram.com/strangeties"
             }
         ]
@@ -135,7 +135,7 @@
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Thiago's Instragram",
+                "name": "Thiago's Instagram",
                 "url": "https://www.instagram.com/thiago_kazu"
             }
         ]
@@ -154,7 +154,7 @@
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Natasha's Instragram",
+                "name": "Natasha's Instagram",
                 "url": "https://www.instagram.com/tashakyola"
             }
         ]
@@ -180,11 +180,11 @@
     },
     {
         "title": "Daytrip XP",
-        "slug": "Daytrip-XP",
-        "thumbnailImage": "img/daytrip_thumbnail.webp",
-        "thumbnailAlt": "daytrip XP thumbnail",
-        "projectImage": "img/daytrip.png",
-        "projectAlt": "daytrip XP screenshot",
+        "slug": "daytrip-xp",
+        "thumbnailImage": "img/daytrip-xp_thumbnail.webp",
+        "thumbnailAlt": "Daytrip XP thumbnail",
+        "projectImage": "img/daytrip-xp.png",
+        "projectAlt": "Daytrip XP screenshot",
         "embedUrl": "",
         "external": false,
         "description": "Daytrip XP is an environmental still life of the mess of everyday digitals. I created this sketch as a window into the frustrations of archiving, a topic inspired by the readings with Equipment of Living. Visitors can take a moment of rest in a landscape reminiscent of classic desktops. Strange objects may litter around and clutter the scenic view but they will clear up in time.",
@@ -192,7 +192,7 @@
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Jou's Insgtragram",
+                "name": "Jou's Instagram",
                 "url": "https://www.instagram.com/real.raingir1"
             },
             {
@@ -203,7 +203,7 @@
     },
     {
         "title": "2020 Poetic Cypher",
-        "slug": "2020-Poetic-Cypher",
+        "slug": "2020-poetic-cypher",
         "thumbnailImage": "img/lauren_thumbnail.webp",
         "thumbnailAlt": "daytrip XP thumbnail",
         "projectImage": "img/lauren.png",
@@ -216,13 +216,13 @@
         "links": [
             {
                 "name": "Lauren's Youtube",
-                "url": "www.youtube.com/@LproduccionL"
+                "url": "https://www.youtube.com/@LproduccionL"
             }
         ]
     },
     {
         "title": "Susan Liu's Project",
-        "slug": "Susan-Liu-Project",
+        "slug": "susan-liu-project",
         "thumbnailImage": "img/susan_thumbnail.webp",
         "thumbnailAlt": "daytrip XP thumbnail",
         "projectImage": "img/susan.png",
@@ -234,14 +234,14 @@
         "quarter": "Spring 2025",
         "links": [
             {
-                "name": "Susan's Instragram",
+                "name": "Susan's Instagram",
                 "url": "https://www.instagram.com/yousuzeyoulius"
             }
         ]
     },
     {
         "title": "Creek",
-        "slug": "Ari-duong Nguyen-Project",
+        "slug": "ari-duong-nguyen-project",
         "thumbnailImage": "",
         "thumbnailAlt": "Creek",
         "projectImage": "",
@@ -260,7 +260,7 @@
     },
     {
         "title": "Fallen Artifacts",
-        "slug": "Khush-Project",
+        "slug": "khush-project",
         "thumbnailImage": "",
         "thumbnailAlt": "Fallen Artifacts Thumbnail",
         "projectImage": "",
