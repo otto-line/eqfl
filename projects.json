@@ -280,5 +280,24 @@
                 "url": "https://www.instagram.com/khush.space/"
             }
         ]
+    },
+    {
+        "title": "Echoes & Extensions",
+        "slug": "echoes-and-extensions",
+        "thumbnailImage": "",
+        "thumbnailAlt": "Fallen Artifacts Thumbnail",
+        "projectImage": "img/hyperdiary.png",
+        "projectAlt": "Echoes and Extensions image",
+        "embedUrl": "https://docs.google.com/document/d/1P3uWdwRSCJI38a1oBNpRQoExZSq4xi1jlDOL4x5MLk0/edit?usp=sharing",
+        "external": false,
+        "description": "An essay in which I grapple openly and inconclusively with the concept of equipment for living, exploring in particular its personal and political dimensions. Drawing inspiration and guidance from: Kenneth Burke, Audre Lorde, Tibetan Buddhism, Ruth Wilson Gilmore and others, I seek to engage critically with intention, purpose, and belief in the task of making art/engaging in creation of any kind. ",
+        "author": "Rebecca Kao",
+        "quarter": "Spring 2025",
+        "links": [
+            {
+                "name": "Rebecca's Instagram",
+                "url": "https://www.instagram.com/@rbeccakao"
+            }
+        ]
     }
 ]
